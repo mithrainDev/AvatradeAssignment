@@ -1,0 +1,2 @@
+# AvatradeAssignment
+AvaTrade Home Assignment
