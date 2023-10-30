@@ -1,4 +1,5 @@
-﻿using PolygonIoTradingNewsParser;
+﻿using Microsoft.Extensions.Configuration;
+using PolygonIoTradingNewsParser;
 
 namespace NewsParser
 {
@@ -8,6 +9,12 @@ namespace NewsParser
         {
             var httpClient = new HttpClient();
             var apiKeyConfiguration = new ApiKeyConfiguration();
+
+            IConfiguration configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            apiKeyConfiguration.ApiKey = configuration.GetSection("ApiKey").Value;
 
             var polygonIoTradingNewsParser = new PolygonIoTradingNewsParser(httpClient, apiKeyConfiguration);
 

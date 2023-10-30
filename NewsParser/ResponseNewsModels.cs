@@ -11,7 +11,7 @@ public class ResponseNewsModels
 public class TradingNews
 {
     [JsonPropertyName("id")]
-    public string? Id { get; set; }
+    public string Id { get; set; }
 
     [JsonPropertyName("title")]
     public string? Title { get; set; }

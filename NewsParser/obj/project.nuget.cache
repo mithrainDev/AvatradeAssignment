@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "UqJkzkldJHP43kP+1sSb1NZafErNYk9YdU/UDhvCR6bQAt/5PQWP7YW4tliczwcvaaSrfXC8tuCI7A5Y9IZySg==",
+  "dgSpecHash": "Kq29DOVE0R8rw4/6VLKqUvPYpx0+Pp8ogPX5NZzfC4NgB8aowfG92nuX+1NzpKpTlFgA/DBQHy/yOwzMOMLvkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mi\\RiderProjects\\AvatradeAssignment\\NewsParser\\NewsParser.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.binder.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.environmentvariables.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.fileextensions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.json.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.fileproviders.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0-rc.2.23479.6\\microsoft.extensions.fileproviders.physical.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0-rc.2.23479.6\\microsoft.extensions.filesystemglobbing.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-rc.2.23479.6\\microsoft.extensions.primitives.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\system.text.encodings.web\\8.0.0-rc.2.23479.6\\system.text.encodings.web.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Mi\\.nuget\\packages\\system.text.json\\8.0.0-rc.2.23479.6\\system.text.json.8.0.0-rc.2.23479.6.nupkg.sha512"
+  ],
   "logs": []
 }

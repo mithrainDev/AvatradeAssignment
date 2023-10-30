@@ -17,10 +17,10 @@ public class PolygonIoTradingNewsParser
     public async Task<ResponseNewsModels?> GetTradingNewsAsync(string ticker)
     {
         var requestUri =
-            new Uri($"https://api.polygon.io/v2/reference/news?ticker={ticker}&apiKey={_apiKeyConfiguration.Key}");
+            new Uri($"https://api.polygon.io/v2/reference/news?ticker={ticker}");
 
         var request = new HttpRequestMessage(HttpMethod.Get, requestUri);
-        request.Headers.Add("Authorization", "Bearer WVAfX4fDjFAeeMdRf77YnCBdjMpowk0e");
+        request.Headers.Add("Authorization", $"Bearer {_apiKeyConfiguration.ApiKey}");
 
         var response = await _httpClient.SendAsync(request);
         if (response.IsSuccessStatusCode)
